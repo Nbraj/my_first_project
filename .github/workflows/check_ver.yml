@@ -1,0 +1,14 @@
+name: Check Version
+on: push
+
+jobs:
+  check_version:
+    runs-on: windows-latest
+
+    steps:
+    - run: node --version
+    - run: nmp --version
+      
+  
+  
+  
