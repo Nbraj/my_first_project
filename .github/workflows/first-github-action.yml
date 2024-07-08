@@ -1,0 +1,11 @@
+run: Run Shell Commands
+
+on: [push,fork]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "Hello, this is my first project."
+        
