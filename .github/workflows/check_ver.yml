@@ -7,7 +7,7 @@ jobs:
 
     steps:
     - run: node --version
-    - run: nmp --version
+    # - run: nmp --version
       
   
   
